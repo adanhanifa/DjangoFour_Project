@@ -1,0 +1,20 @@
+<!--Create a new django project and;-->
+<!--Create a model called Registration(first_name,last_name,phone_no,password)-->
+<!--Using the model above migrate it to make a respective database table, also convert the model to make a form on the front-end browser.-->
+<!--Lastly, enable user to key in values into the form and save to the database.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../../static/css/style.css">
+</head>
+<body>
+<h1>REGISTER WORKERS</h1>
+<form action="">
+    {%csrf_token%}
+    {{form}}
+    <button type="submit">SUBMIT</button>
+</form>
+</body>
+</html>
